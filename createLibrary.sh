@@ -13,9 +13,6 @@ echo "Copy Library"
 # Library
 cp target/$NAME-*.jar $TMP/$NAME/library/$NAME.jar
 
-echo "LSL and friends"
-cp external/* $NAME/library/
-
 echo "Copy the sources" 
 # copy the source also
 cp -R src $TMP/$NAME/

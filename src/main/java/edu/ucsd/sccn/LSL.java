@@ -981,7 +981,9 @@ public class LSL {
                 inst = (dll)Native.loadLibrary((Platform.is64Bit() ? "liblsl64.dylib" : "liblsl32.dylib"),dll.class);
                 break;
             default:
-                inst = (dll)Native.loadLibrary((Platform.is64Bit() ? "liblsl64.so" : "liblsl32.so"),dll.class);
+                //inst = (dll)Native.loadLibrary((Platform.is64Bit() ? "liblsl64.so" : "liblsl32.so"),dll.class);
+                // Hotfix: should happen "lib" and ".so" automatically while searching, at least for linux64??
+                inst = (dll)Native.loadLibrary((Platform.is64Bit() ? "lsl64" : "liblsl32.so"),dll.class);
                 if (inst == null)
                     inst = (dll)Native.loadLibrary("liblsl.so",dll.class);
                 break;
