@@ -6,7 +6,7 @@ after_success:
 deploy:
   provider: releases
   api_key:
-    secure: TdQ/JwwC93aW30NRuMEo21UB1s0l94O1yNJ5n8KXgE3s2Ket7M31khoVfbJf3s7X/cYhy0/9e3Mleek5c1FAX7TlhKG+Zx3lrS7gnYOQbZLwMdewhtqk3rDbOfDXEEnxYy5GvKfwon8pjqg/htQusH5IzNeO+KC7sQ8c1UGBiWg=
+    secure: Ms4BzxnnB668WGGjMVY/wYQtNcvBryEqL9VTilFvuvzqe084doh8WMJqs09e0ygexWjeC5GwKEBH8xqifMX3yEz5GZnusCVCM1zchmL2dwUKHQ0r2Ih/DZ7ml/5nqiqQP80wGNfj1o032a5rDhfLt91U5X05DdC3MKqvEq3mz6E=
   file: LSLLink.tgz
   skip_cleanup: true
   on:
