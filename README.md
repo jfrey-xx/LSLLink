@@ -4,6 +4,10 @@
 
 Wrapper for [LSL (lab streaming layer)](https://code.google.com/p/labstreaminglayer/).
 
+## Changelog
+
+* 0.1 first release, based on LSL 1.10.2
+
 ## TODO
 
 * tested only on linux x64
