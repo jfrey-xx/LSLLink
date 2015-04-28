@@ -4,6 +4,10 @@
 
 Wrapper for [LSL (lab streaming layer)](https://code.google.com/p/labstreaminglayer/).
 
+## TODO
+
+* writing not working at the moment
+
 ## Custom build
 
 - cd libs && ./install.sh
