@@ -6,6 +6,7 @@ Wrapper for [LSL (lab streaming layer)](https://code.google.com/p/labstreamingla
 
 ## TODO
 
+* tested only on linux x64
 * writing not working at the moment
 
 ## Custom build
